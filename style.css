@@ -91,16 +91,18 @@ body {
   left: 50%;
   bottom: 5%;
   z-index: 2;
-  width: min(34vw, 360px);
-  max-height: 45vh;
+  width: min(20vw, 200px);
+  max-height: 30vh;
   object-fit: contain;
   pointer-events: none;
   transform: translateX(-50%);
+  mix-blend-mode: normal;
+  opacity: 0.92;
 }
 
 @media (max-width: 640px) {
   .decoration-gif {
-    width: min(58vw, 280px);
+    width: min(38vw, 170px);
     bottom: 7%;
   }
 }
